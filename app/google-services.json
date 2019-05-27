@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84757022641",
+    "firebase_url": "https://vyn-proyect-09.firebaseio.com",
+    "project_id": "vyn-proyect-09",
+    "storage_bucket": "vyn-proyect-09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84757022641:android:bc7b8cc7d3cb7329",
+        "android_client_info": {
+          "package_name": "com.vbarca.vyn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84757022641-9au565d900e28gqqmhivm1phkfler0me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vbarca.vyn",
+            "certificate_hash": "344716a0d66cd3260100fc32a964646bbb8b9be2"
+          }
+        },
+        {
+          "client_id": "84757022641-hj7klciceerqvomh7sdlul20qsn3ge9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdOObb0JY1lWJF-lGCl-MoKjcIDT4Xq1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84757022641-hj7klciceerqvomh7sdlul20qsn3ge9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

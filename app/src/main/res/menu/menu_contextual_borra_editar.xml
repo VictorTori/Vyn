@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_eliminar_inicio"
+        android:title="@string/lb_eliminar"/>
+    <item android:id="@+id/action_renombrar"
+        android:title="@string/lb_renombrar"/>
+</menu>

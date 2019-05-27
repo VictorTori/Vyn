@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.PerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="822dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/etCambioUsuario"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cambiar Nombre de Usuario" />
+
+        <EditText
+            android:id="@+id/etCambioClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cambiar contraseña"
+            android:inputType="textPersonName"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/etConfirmarCLave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPersonName"
+            android:paddingTop="30dp" />
+
+        <Button
+            android:id="@+id/btGuardarUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones_register"
+            android:text="GUARDAR CAMBIOS" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="CODIGO SALA" />
+
+        <EditText
+            android:id="@+id/etCambioSala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cambiar Sala" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btCopiarSala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botones_register"
+                android:layout_weight="1"
+                android:text="COPIAR SALA ACTUAL" />
+
+            <Button
+                android:id="@+id/btGuardarSala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/botones_register"
+                android:text="GUARDAR SALA" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
